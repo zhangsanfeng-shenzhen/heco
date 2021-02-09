@@ -37,7 +37,7 @@ class AuthService(object):
 		return self.call
 
 '''
-auth = AuthService("HH")
+auth = AuthService()
 versin = auth.eth_protocolVersion()
 balance = auth.eth_getBalance('0x407d73d8a49eeb85d32cf465507dd71d507100c1','latest')
 '''
